@@ -16,7 +16,7 @@ PowerShell blocks scripts by default as a security measure. To allow locally wri
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-![Setting the execution policy](screenshots/ss1.png)
+![Setting the execution policy](Screenshots/ss1.png)
 
 ## Scripts
 
@@ -28,11 +28,11 @@ The script displays the report on screen and also saves a timestamped copy to a 
 
 Running the script:
 
-![Health check running](screenshots/ss2.png)
+![Health check running](Screenshots/ss2.png)
 
 The report is saved to a text file in the same folder, confirmed with a directory listing:
 
-![Report saved to file](screenshots/ss3.png)
+![Report saved to file](Screenshots/ss3.png)
 
 Example usage:
 
@@ -52,11 +52,11 @@ This script was built with safety in mind, since it deletes files:
 
 Scan before cleanup:
 
-![Temp scan before](screenshots/ss4.png)
+![Temp scan before](Screenshots/ss4.png)
 
 After cleanup, with locked files correctly skipped:
 
-![Temp cleanup after](screenshots/ss5.png)
+![Temp cleanup after](Screenshots/ss5.png)
 
 Example usage:
 
